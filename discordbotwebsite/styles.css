@@ -1,0 +1,108 @@
+/* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Set up the background and font */
+body {
+    background-color: #121212;
+    font-family: Arial, sans-serif;
+    color: #fff;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.container {
+    max-width: 800px;
+    width: 100%;
+}
+
+header {
+    margin-bottom: 40px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 10px;
+}
+
+nav a {
+    color: #ffdd57;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+nav a:hover {
+    color: #ffcc33;
+}
+
+main {
+    background-color: #1a1a1a;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(255, 221, 87, 0.3);
+}
+
+main h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+    color: #ffdd57;
+}
+
+.description {
+    margin-bottom: 30px;
+}
+
+.description p:first-child {
+    font-size: 1.2rem;
+    color: #ccc;
+}
+
+.description h2 {
+    font-size: 2.5rem;
+    color: #ffdd57;
+}
+
+.description p:last-child {
+    font-size: 1rem;
+    color: #bbb;
+}
+
+.buttons {
+    margin-top: 20px;
+}
+
+.button {
+    background-color: #ffdd57;
+    color: #121212;
+    padding: 15px 30px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin: 10px;
+    display: inline-block;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #ffcc33;
+}
+
+footer {
+    margin-top: 40px;
+}
+
+footer p {
+    color: #666;
+    font-size: 0.9rem;
+}
